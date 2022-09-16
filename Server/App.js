@@ -42,7 +42,7 @@ app.post('/destination',(req,res)=>{
       console.log("inside then")
     res.send(result.data.result.webcams[0])}).catch((err)=>{
       console.log(err);
-      console.log("inside errro")
+      console.log("inside errrosss")
       res.send(err)
     })
   
