@@ -1,0 +1,363 @@
+/* it used to exclude extra white space on right */
+html,body{
+    overflow-x: hidden;
+}
+
+
+a{
+  color: white;
+}
+
+/* h5{
+  text-align: center;
+} */
+
+#first h5{
+  color: white;
+  text-align: center;
+
+}
+
+
+.main-heading{
+  font-family: 'Sacramento', cursive;
+}
+
+#first .heading{
+  font-family: 'Sacramento', cursive;
+  font-weight: 300;
+ font-size: 3.5rem;
+
+}
+
+#first a:hover{
+
+  border-bottom: 2px solid ;
+  position: relative;
+  display: block;
+  color: white;
+  /* font-size: 20px; */
+}
+
+
+
+#first{
+  background: url("./images/boat.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.main-input{
+  width: 50%;
+}
+
+
+
+@media (max-width: 1028px) {
+  .input-col {
+    position:relative;
+
+    text-align:center;
+
+  }
+}
+/*
+@media (min-width: 400px) {
+  .input-inner {
+    position:relative;
+
+    text-align:center;
+     width: 20%;
+  }
+} */
+
+
+
+.heading{
+  text-align: center;
+  color: white;
+  margin-top: 180px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,1, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+  border-color: rgb(0,0,1);
+}
+
+
+
+.input-explore{
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+
+}
+/*
+.input-destination{
+   border-color: gray;
+} */
+
+.btn-explore{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    height: 50px;
+}
+
+#middle{
+    /* background-image: linear-gradient(#3d7db8,#DDA0DD); */
+    background-repeat: no-repeat;
+    width: auto;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+#middle i{
+  color: #02475e;
+}
+
+#middle i:hover{
+  color: #798777;
+}
+
+.cards3{
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 5%);
+    /* box-shadow:  2px 2px 2px 2px #888888; */
+    border-radius: 10px;
+
+}
+
+
+
+.cards3:hover{
+
+   box-shadow: 5px 10px 8px 10px #888888;
+   border-radius: 10px;
+
+}
+
+.card{
+  border: 0px;
+
+}
+
+
+.feature-box{
+  margin: 20px 40px;
+
+
+}
+
+.logos{
+     text-align: center;
+     padding: 10%;
+}
+.heading-middle{
+  padding-bottom: 50px;
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+}
+
+.logo-images{
+
+  padding: 5%;
+  margin: 1% 1%;
+}
+
+.carouselimages{
+  width: 700px;
+  height: 600px;
+}
+
+.main{
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+
+
+.cards-box{
+  margin-bottom: 100px;
+}
+
+#last{
+    font-family: 'Crimson Pro', serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#last h4{
+  text-align: center;
+
+}
+
+.about-spacing{
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+
+.content-image{
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  border-radius: 10%;
+  margin-left: 100px;
+}
+
+#last .last-contents{
+
+   padding-left: 0px;
+   padding-right: 0px;
+
+}
+
+#last .left-sideimage{
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  border-radius: 10%;
+
+}
+
+#last .color-first-last{
+  /* background-color: #f1f3f6; */
+  background-color: #f3f4ed;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+}
+
+#last .color-middle{
+  background-color: white;
+
+}
+
+#last .last-contents-heading{
+  font-family: 'Crimson Pro', serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#last h5{
+  font-family: 'Crimson Pro', serif;
+  text-align: center;
+}
+
+.heading-last{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+}
+
+ /*----------------------------------------- FOR MOBILE SCREEN----------------------------------*/
+@media (max-width: 800px){
+  .about-spacing{
+    text-align: center;
+
+  }
+
+  .content-image{
+    margin: 0px 0px;
+  }
+
+  #first{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    background-attachment: fixed;
+
+  }
+}
+
+/*-----------------------------FOR TABLET SCREEN-------------------------------------------------------------*/
+
+
+
+  #first{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    background-attachment: fixed;
+
+  }
+
+
+/* @media (max-width: 800px) {
+  .main-carousel{
+    width: 600px;
+    height: 300px;
+
+  }
+} */
+
+@media (max-width: 600px) {
+  .cards-box {
+    text-align: center;
+    width: 70%;
+
+  }
+
+  .feature-box{
+    margin-left: 20px ;
+    margin-right:20px;
+
+  }
+}
+
+
+
+#contact{
+
+  padding-top: 50px;
+
+   /* background-image: linear-gradient(75deg,#a1cae2,#8ac4d0,white); */
+   background-image: url(final_contact1.png);
+   padding-top: 50px;
+   height: 50vh;
+   background-repeat: no-repeat;
+   width: auto;
+   background-size: cover;
+   position: relative;
+
+   font-family: 'Newsreader', serif;
+   font-size: 17px;
+   color: black;
+
+
+}
+
+
+
+.contact-para{
+    text-align: center;
+
+}
+
+.contact-fab{
+  display: inline-block;
+  float: right;
+}
+
+
+
+@media (max-width: 800px) {
+  #contact{
+     background-image: url(final_contact1.png);
+     height: 150vh;
+      background-repeat: no-repeat;
+  }
+}
