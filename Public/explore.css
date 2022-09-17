@@ -1,0 +1,79 @@
+.exploreContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    
+}
+
+.cards{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2prestaurantx 4px 10px 1px rgba(201, 201, 201, 0.47);
+    background-color: aquamarine;
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(247, 235, 214);
+    text-align: center;
+    
+    font-size: 30px;
+}
+
+.Restro{
+    background-image: url("https://images.unsplash.com/photo-1543007631-283050bb3e8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Hotels{
+    background-image: url("https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Events{
+    background-image: url("https://images.unsplash.com/photo-1505842465776-3b4953ca4f44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxwYXJ0aWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.travelOptions{
+
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.travelPlaces{
+    border: 1px solid black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.places{
+    
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 150px;
+    background-color: rgb(81, 189, 189);
+    padding: 20px;
+}
