@@ -16,8 +16,6 @@ app.get('/', (req, res) => {
 app.post('/destination',(req,res)=>{
 
     try{
-
-    
       const options = {
         method: 'GET',
         url: 'https://webcamstravel.p.rapidapi.com/webcams/list/nearby=%7Blat%7D,%7Blng%7D,%7Bradius%7D',
@@ -32,10 +30,7 @@ app.post('/destination',(req,res)=>{
     async function getData(){
         
         let data = await axios.request(options)
-        return data;
-        
-        
-        
+        return data; 
     }
     let data =getData();
     data.then((result)=>{console.log(result.data.result.webcams[0]);
